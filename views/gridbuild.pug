@@ -14,7 +14,7 @@ block content
   else if cols<1||cols>10
     p Entered columns value is out of range  
   else
-    table#outer(class="table table-bordered")
+    table#outer(class="table table-condensed")
       - for(let i=0; i<rows; i++) {
           tr#middle
             - for(let j=0; j<cols; j++) {
